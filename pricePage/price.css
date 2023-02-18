@@ -100,6 +100,23 @@
     margin-right: 80px
 }
 
+.backBeranda a {
+    width: 100px;
+    background-color: #11153C;
+    color: wheat;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.backBeranda a svg {
+    margin-right: 10px;
+}
+
+.backBeranda a:hover {
+    background-color: #1B3764;
+}
+
 /* dark mode efect */
 body.darkMode {
     background-color: #3A2121;
@@ -123,22 +140,7 @@ body.darkMode {
     color: beige;
 }
 
-.backBeranda a {
-    width: 100px;
-    background-color: #11153C;
-    color: wheat;
-    cursor: pointer;
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
 
-.backBeranda a svg {
-    margin-right: 10px;
-}
-
-.backBeranda a:hover {
-    background-color: #1B3764;
-}
 
 /* 
 1. khusus body tidak boleh menggunakan spasi
