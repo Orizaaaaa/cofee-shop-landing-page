@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.btnIcon {
+    border: none;
+    margin-top: 10px;
+    margin-left: 1250px;
+    background-color: transparent;
+
+
+
+}
+
+.cartIcon {
+    border: none;
+    background-color: transparent;
+}
+
+.displayCart svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 2px auto;
+}
+
+.nomorCart {
+    font-size: 12px;
+
+
+
+}
+
+#imageNight {
+    height: 40px;
+    width: 40px;
+}
+
+#searchMenu {
+    width: 500px;
+    margin-left: 370px;
+
+
+}
+
+.btnSearch {
+    background-color: #11153C !important;
+    color: beige !important;
+    margin-left: 20px;
+
+}
+
+.card {
+    width: 263px !important;
+    height: 298px !important;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+
+
+.card img {
+    padding: 17px;
+    border-radius: 27px;
+}
+
+.card img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.card h7 {
+    color: #766F6B;
+}
+
+.card p {
+    color: #774A47;
+
+}
+
+.priceList {
+    margin-top: 40px;
+}
+
+.card-body button {
+    background-color: #11153C !important;
+    color: wheat !important;
+    margin-left: 100px;
+    margin-top: 10px;
+    border: none;
+    font-size: 13px;
+    min-width: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: 80px
+}
+
+/* dark mode efect */
+body.darkMode {
+    background-color: #3A2121;
+}
+
+.darkMode .card {
+    background-color: #3A2121;
+
+}
+
+
+.darkMode .card h7 {
+    color: white;
+}
+
+.darkMode .card p {
+    color: wheat;
+}
+
+.darkMode .displayCart {
+    color: beige;
+}
+
+.backBeranda a {
+    width: 100px;
+    background-color: #11153C;
+    color: wheat;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.backBeranda a svg {
+    margin-right: 10px;
+}
+
+.backBeranda a:hover {
+    background-color: #1B3764;
+}
+
+/* 
+1. khusus body tidak boleh menggunakan spasi
+2. untuk menambah class toogle baru harus menggunakan spasi 
+   contoh .darkMode .card (harus di awali element toogle dulu)
+3. untuk nama class togle bisa satu nama class akan tetapi bisa mengubah 
+   semua element jika element tersebut di tambahkan class yang sama
+
+
+
+*/
